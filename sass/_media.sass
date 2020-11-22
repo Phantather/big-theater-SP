@@ -1,0 +1,516 @@
+@media(max-width: 1200px)
+  .menu
+    padding-left: 90px
+    .contact
+      padding-left: 70px
+  .promo__subheader
+    padding: 266px 0 0 90px
+  .staging__item img
+    width: 280px
+  .burger__menu_nav
+    display: none
+
+@media (max-width: 991px)
+  .menu
+    display: flex
+    justify-content: space-between
+    padding-left: 0
+    &__link
+      font-size: 16px
+  .promo .menu .menu__item:not(:last-child)
+      padding-right: 22px
+  .promo .menu__phone
+   display: none
+  .promo__subheader
+    padding: 266px 0 0 0
+  .carousel
+    display: none
+  .about__best
+    font-size: 18px
+  .about__subtitle
+    font-size: 18px
+  .about__descr
+    width: 274px
+    font-size: 11px
+  .achievements__info
+    .main__img
+      width: 991px
+  .staging__item img
+    width: 240px
+  .staging__item-text_horizontal
+    font-size: 18px
+    left: 35px
+  .staging__item-text_vertical
+    font-size: 14px
+  .staging__item .loupe
+    top: 123px
+    right: 103px
+  .partner__logo img
+    width: 150px
+  .check form .name
+    width: 130px
+    margin: 0 11px 11px 0
+  .check form .tel
+    width: 130px
+  .check form .company
+    width: 130px
+    margin: 0 11px 11px 0
+  .check form .mail
+    width: 130px
+  .check form .massage
+    width: 170px
+    height: 81px
+  .check form .check__btn
+    top: 25px
+    left: 6px
+    width: 162px
+  .check .check__info
+    bottom: -12px
+    width: 290px
+  .burger__menu_nav
+    display: none
+
+@media (max-width: 767px)
+  .menu__phone
+    display: none
+  .promo .menu
+    display: flex
+    position: fixed
+    flex-direction: column
+    justify-content: center
+    top: 0
+    left: -100%
+    width: 50%
+    height: 100%
+    padding: 80px 17px 0 17px
+    overflow-y: auto
+    background: #D1A954
+    z-index: 1
+    cursor: pointer
+    &_active
+      width: 25%
+      left: 0
+    &__item
+      margin-bottom: 35px
+    &__link
+      font-size: 16px
+      &:hover
+        font-size: 16px
+        color: #333333
+  .hamburger
+    display: block
+    position: fixed
+    width: 30px
+    height: 30px
+    top: 20px
+    left: 20px
+    z-index: 2
+    span
+      display: block
+      height: 3px
+      width: 25px
+      background: #fff
+      margin-bottom: 2px
+      transition: .5s all
+    &_active
+      span
+        margin-bottom: -2px
+        &:nth-child(1)
+          transform: rotate(-45deg)
+        &:nth-child(2)
+          display: none
+        &:nth-child(3)
+          transform: rotate(45deg)
+  .promo__social
+    display: none
+  .staging__item
+    img
+      width: 191px
+  .staging__item-text_horizontal
+    font-size: 14px
+    left: 27px
+  .staging__item-text_vertical
+    font-size: 12px
+  .staging__item
+    .loupe
+      top: 80px
+      right: 80px
+  .achievements__info
+    .main__img
+      width: 767px
+  .achievements__info_data
+    width: 182px
+    top: 110px
+    left: 130px
+    font-size: 47px
+  .achievements__info_star
+    top: 140px
+    left: 320px
+  .achievements__info_text
+    top: 200px
+    left: 320px
+    font-size: 31px
+    width: 430px
+  .maecenas__contacts_mail
+    position: absolute
+    top: 100px
+    right: 22px
+  .maecenas__contacts_address
+    position: absolute
+    top: 150px
+    right: 22px
+  .check form
+    .massage
+      width: 194px
+  .check
+    .check__info
+      bottom: -22px
+  .check form
+    .check__btn
+      top: 12px
+      left: 32px
+
+@media (max-width: 576px)
+  .promo__subheader
+    width: 310px
+  .promo__subtitile
+    font-size: 46px
+  .promo__descr
+    width: 300px
+  .promo .menu
+    width: 50%
+    padding: 110px 17px 0 17px
+  .menu__phone
+    display: none
+  .staging__item
+    img
+      width: 145px
+  .staging__item-text_vertical
+    position: absolute
+    left: -12px
+    bottom: 37px
+    font-size: 13px
+  .staging__item-text_horizontal
+    font-size: 13px
+    top: 18px
+    left: 13px
+  .staging__item
+    .loupe
+      top: 59px
+      right: 59px
+  .achievements__info
+    .main__img
+      width: 576px
+  .achievements__info_data
+    width: 125px
+    top: 44px
+    left: 88px
+    font-size: 40px
+  .achievements__info_star
+    top: 62px
+    left: 227px
+  .achievements__info_text
+    top: 105px
+    left: 227px
+    font-size: 24px
+    width: 324px
+    .achievements__info_text
+      top: 69px
+      left: 105px
+      font-size: 16px
+      width: 209px
+      line-height: 2
+  .maecenas__contacts_mail
+    top: 100px
+    right: 16px
+    font-size: 16px
+  .maecenas__contacts_address
+    top: 144px
+    right: 16px
+    font-size: 16px
+  .maecenas__contacts_phone1
+    font-size: 16px
+  .maecenas__contacts_phone2
+    font-size: 16px
+  .check form .name
+    position: absolute
+    top: 0
+    width: 250px
+  .check form .company
+    position: absolute
+    top: 0
+    right: 4px
+    width: 250px
+  .check form .tel
+    position: absolute
+    top: 45px
+    width: 250px
+  .check form .mail
+    position: absolute
+    top: 45px
+    right: 15px
+    width: 250px
+  .check form .massage
+    position: absolute
+    bottom: -19px
+    right: 15px
+    width: 509px
+  .check form .check__btn
+    top: 90px
+    left: 170px
+  .check .check__info
+    bottom: -163px
+    width: 532px
+  footer
+    padding:  80px 0 30px 0
+  .staging__item
+    img
+      width: 144px
+  .staging__item-text_horizontal
+    font-size: 12px
+    top: 10px
+    left: 13px
+  .staging__item-text_vertical
+    position: absolute
+    left: -8px
+    bottom: 30px
+    font-size: 10px
+  .staging__item
+    .loupe
+      top: 60px
+      right: 55px
+
+@media (max-width: 414px)
+  .staging__item img
+    width: 103px
+  .staging__item .loupe
+    top: 46px
+    right: 34px
+  .achievements__info .main__img
+    width: 414px
+  .achievements__info_data
+    width: 125px
+    top: 23px
+    left: 36px
+    font-size: 35px
+  .achievements__info_star
+    top: 34px
+    left: 133px
+  .achievements__info_text
+    top: 74px
+    left: 132px
+    font-size: 19px
+    width: 273px
+  .check form .name
+    top: 0
+    width: 180px
+  .check form .company
+    top: 0
+    right: 4px
+    width: 185px
+  .check form .tel
+    top: 45px
+    width: 180px
+  .check form .mail
+    top: 45px
+    right: 15px
+    width: 185px
+  .check form .massage
+    bottom: -19px
+    right: 15px
+    width: 385px
+  .check form .check__btn
+    top: 90px
+    left: 107px
+  .check .check__info
+    bottom: -163px
+    width: 374px
+
+@media (max-width: 375px)
+  .staging__item img
+    width: 94px
+  .staging__item .loupe
+    top: 44px
+    right: 30px
+  .achievements__info .main__img
+    width: 375px
+  .achievements__info_data
+    width: 125px
+    top: 23px
+    left: 20px
+    font-size: 35px
+  .achievements__info_star
+    top: 34px
+    left: 102px
+  .achievements__info_text
+    top: 74px
+    left: 102px
+    font-size: 18px
+    width: 273px
+  .maecenas__contacts_phone1
+      font-size: 15px
+  .maecenas__contacts_phone2
+    font-size: 15px
+  .maecenas__contacts_mail
+    top: 100px
+    right: 16px
+    font-size: 15px
+  .maecenas__contacts_address
+    top: 147px
+    right: 16px
+    font-size: 15px
+  .check form .name
+    top: 0
+    width: 160px
+  .check form .company
+    top: 0
+    right: 4px
+    width: 165px
+  .check form .tel
+    top: 45px
+    width: 160px
+  .check form .mail
+    top: 45px
+    right: 15px
+    width: 165px
+  .check form .massage
+    bottom: -19px
+    right: 15px
+    width: 385px
+  .check form .check__btn
+    top: 90px
+    left: 90px
+  .check .check__info
+    bottom: -163px
+    width: 360px
+
+@media (max-width: 360px)
+  .promo .menu__link
+    font-size: 15px
+  .about__image
+    img
+      width: 327px
+  .staging__item img
+    width: 90px
+  .achievements__info .main__img
+    width: 360px
+  .achievements__info_data
+    width: 122px
+    top: 23px
+    left: 13px
+    font-size: 31px
+  .achievements__info_star
+    left: 87px
+  .achievements__info_text
+    top: 80px
+    left: 88px
+    font-size: 18px
+    width: 259px
+    line-height: 2
+  .check form .massage
+    width: 330px
+  .check .check__info
+    bottom: -173px
+    width: 335px
+
+@media (max-width: 320px)
+  .promo .menu
+    width: 55%
+    padding: 110px 0 0 17px
+  .promo .menu__link
+    font-size: 15px
+  .promo__subheader
+    width: 301px
+  .promo__subtitile
+    font-size: 44px
+  .promo__descr
+    width: 270px
+  .title
+    font-size: 40px
+  .about__image
+    img
+      width: 297px
+  .staging__item
+    img
+      width: 80px
+  .staging__item-text_horizontal
+    font-size: 10px
+    top: 10px
+    left: 13px
+  .staging__item-text_vertical
+    position: absolute
+    left: -8px
+    bottom: 24px
+    font-size: 9px
+  .staging__item
+    .loupe
+      top: 40px
+      right: 23px
+  .achievements__info .main__img
+    width: 320px
+  .achievements__info_data
+    width: 125px
+    top: 11px
+    left: 17px
+    font-size: 32px
+  .achievements__info_star
+    top: 20px
+    left: 102px
+    img
+      width: 15px
+      height: 15px
+  .achievements__info_text
+    top: 69px
+    left: 105px
+    font-size: 16px
+    width: 209px
+    line-height: 2
+  .maecenas__contacts_mail
+    top: 100px
+    right: 16px
+    font-size: 12px
+  .maecenas__contacts_address
+    top: 144px
+    right: 16px
+    font-size: 12px
+  .maecenas__contacts_phone1
+    font-size: 12px
+  .maecenas__contacts_phone2
+    font-size: 12px
+  .check form .name
+    position: absolute
+    top: 0
+    width: 140px
+  .check form .company
+    position: absolute
+    top: 0
+    right: 4px
+    width: 140px
+  .check form .tel
+    position: absolute
+    top: 45px
+    width: 140px
+  .check form .mail
+    position: absolute
+    top: 45px
+    right: 15px
+    width: 140px
+  .check form .massage
+    position: absolute
+    bottom: -19px
+    right: 15px
+    width: 290px
+  .check form .check__btn
+    top: 90px
+    left: 55px
+  .check .check__info
+    bottom: -173px
+    width: 280px
+  footer
+    padding:  80px 0 30px 0
+  .pageup
+    position: fixed
+    bottom: 14px
+    right: 5px
+    width: 35px
+    height: 35px
